@@ -16,7 +16,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <title>Prvo ime</title>
+    <title>Opis</title>
 </head>
 
 <style>
@@ -27,10 +27,7 @@
         height:auto;
     }
 
-    .svetionik
-    {
-        
-    }
+   
 
     .sveti_tekst{
 
@@ -39,6 +36,31 @@
         margin-right:400px;
     }
 
+    .animacija{
+       
+        background-color: green;
+        height:100px;
+        width:100px;
+        animation:anime 4s infinite;
+
+
+    }
+
+    @keyframes anime {
+        0,100% {
+            background-color: green;
+            transform:scale(0.5);
+
+        }
+
+        50%{
+            background-color:blue;
+            transform:scale(1);
+
+        }
+
+
+    }
 
 </style>
 
@@ -73,6 +95,19 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/CqaAs_3azSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
+
+    <div class="biciklo mt-5 text-success text-center">
+
+        Takodje voli i voznju biciklom i po malo sportskih aktivnosti
+
+
+    </div>
+
+    <div class="animacija">
+
+    </div>
+
+
 
 
 </body>
